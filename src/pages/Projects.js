@@ -1,0 +1,133 @@
+
+
+function Projects() {
+  return (
+    <div id="portfolio" className="our-portfolio section">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div
+              className="section-heading wow bounceIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <h2>
+                Bringing <em>ideas</em> to life <span>online</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+
+          <div className="col-lg-6 col-sm-6">
+           <p align="justify">I have developed a projects using PHP, CodeIgniter, WordPress, HTML, CSS, and Bootstrap. Each project reflects my focus on functionality, user-friendly design, and responsive layouts that deliver seamless digital experiences.</p>
+          </div>
+
+          <div className="col-lg-3 col-sm-6">
+            <a href="#">
+              <div
+                className="item wow bounceInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <div className="hidden-content">
+                  <p>Built dynamic and responsive web applications using PHP, CodeIgniter, WordPress, HTML, CSS, and Bootstrap, focusing on functionality and smooth user experience.</p>
+                </div>
+                <div className="showed-content">
+                  <h3>Development</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="col-lg-3 col-sm-6">
+            <a href="#">
+              <div
+                className="item wow bounceInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
+              >
+                <div className="hidden-content">
+                  <p>Created engaging visuals including posters, banners, thumbnails, and flyers using Photoshop, Canva, and Figma, blending creativity with clean design aesthetics.</p>
+                </div>
+                <div className="showed-content">
+                  <h3>Design</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div><br></br>
+      <div className="container">
+        <div className="row">
+          <h3>DEVELOPMENT</h3>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>VIT Website – WordPress</b></u></h5>
+            <p>Developed and maintained the official VIT University website using WordPress. This comprehensive institutional portal provides authoritative information on admissions, academics, departments, research, news, events, and campus resources for students, faculty, and visitors. Focus areas included content architecture, theme and  performance optimization, responsive design and secure content management to handle high traffic and frequent updates. The site emphasizes accessibility, clear navigation, and consistent branding to deliver an informative, user-friendly experience.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://vit.ac.in/" target="_blank">https://vit.ac.in/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>VIT Online – WordPress</b></u></h5>
+            <p>Created and customized the VIT Online website to support academic and administrative activities. The platform facilitates easy information sharing, event updates, and online services for students and staff. Ensured consistent branding, modern design, and mobile responsiveness for better accessibility.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://vitonline.in/" target="_blank">https://vitonline.in/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>Blogs – WordPress</b></u></h5>
+            <p>Designed and managed a blog platform for publishing institutional news, articles, and updates. Implemented category-based content organization, SEO-friendly structure, and an easy-to-manage admin interface for smooth content publishing.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://blogs.vit.ac.in/" target="_blank">https://blogs.vit.ac.in/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>Intranet - WordPress</b></u></h5>
+            <p>Developed and maintained the Intranet portal for University, serving as a internal platform. It provides access to institutional resources through a well-structured and user-friendly interface. Focused on optimized navigation, responsive layouts, and smooth content management for efficient internal communication.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://intranet.vit.ac.in/" target="_blank">https://intranet.vit.ac.in/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>B-School – WordPress</b></u></h5>
+            <p>Developed the VIT Business School website highlighting academic programs, faculty profiles, research activities, and events. Focused on creating a clean, professional interface that aligns with institutional branding and provides intuitive navigation for prospective students and visitors.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://bschool.vit.ac.in/" target="_blank">https://bschool.vit.ac.in/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>Gallery – WordPress</b></u></h5>
+            <p>Developed a media gallery website showcasing campus events, student activities, and achievements. Integrated dynamic image layouts and responsive design to ensure smooth viewing across devices. Focused on visual appeal, fast loading, and easy content updates.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://gallery.vit.ac.in/" target="_blank">https://gallery.vit.ac.in/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>UHET – WordPress</b></u></h5>
+            <p>Developed the official website for the Universal Higher Education Trust (UHET) using WordPress. The platform highlights UHET’s initiatives, educational programs, scholarships, and community development activities. Designed with a focus on accessibility, clarity, and modern aesthetics, the site ensures easy navigation for students, and donors while maintaining the trust’s professional identity.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://uhetrustindia.org/" target="_blank">https://uhetrustindia.org/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>Visitor Management System – PHP CodeIgniter 3</b></u></h5>
+            <p>Developed a Visitor Management System using PHP CodeIgniter 3 to efficiently record and manage visitor information within an organization. The system allows security or reception staff to register visitor details, generate unique digital passes, and track check-in/check-out times.</p>
+            <p>Key features include:
+              <ul >
+                <li>Auto-generated 5-digit visitor pass numbers</li>
+                <li>Blacklist management system with alerts for restricted entries</li>
+                <li>Visitor reports and analytics with filtering options</li>
+                <li>Dynamic data loading (e.g., cities based on states)</li>
+                <li>Session handling, form validation, and pagination for a seamless user experience</li>
+              </ul>
+            </p>
+            <p>The application ensures improved visitor tracking, enhanced security, and a structured approach to daily visitor management operations.</p>
+            <p><i class="fa fa-solid fa-link"></i><a href="https://uhetrustindia.org/" target="_blank">https://uhetrustindia.org/</a></p>
+          </div>
+          <div className="col-lg-12">
+            <h5 className="mt-4"><u><b>Conference Websites – HTML, CSS & Bootstrap</b></u></h5>
+            <p>Developed and designed multiple conference websites using HTML, CSS, and Bootstrap. Each site was tailored to showcase event details, schedules, speakers, and registration information with a clean and responsive layout. Focused on creating visually engaging designs, intuitive navigation, and mobile-friendly interfaces to ensure a smooth browsing experience for participants and organizers.</p>
+          </div>
+        </div>
+        <div class="row mt-5 mb-5">
+          <h3>DESIGN</h3>
+          <div className="col-lg-12">
+            <h5 className="mt-3"><u><b>Designing</b></u></h5>
+            <p>Created a wide range of digital designs including posters, event banners, YouTube thumbnails, event backdrops, and flyers for institutional and promotional purposes. Used tools like Photoshop, Canva, PosterMyWall, and Freepik to craft visually appealing and impactful graphics. Focused on blending creativity with clarity to deliver designs that communicate ideas effectively and align with brand identity</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Projects;
