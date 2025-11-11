@@ -1,6 +1,7 @@
 import logoImage from '../assets/images/logo.png';
- 
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; 
+
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -9,56 +10,51 @@ function Home() {
   };
 
   return (
-      <header
-        className="header-area header-sticky wow slideInDown"
-        data-wow-duration="0.75s"
-        data-wow-delay="0s"
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <nav className="main-nav">
-                <a href="#home" className="logo">
-                  <img src={logoImage} alt="services" />
-                  <h4>
-                    SHAR<span>MILA</span>
-                  </h4>
-                </a>
-                <ul className={`nav ${menuOpen ? "open" : ""}`}>
-                  <li className="scroll-to-section">
-                    <a href="/" onClick={() => setMenuOpen(false)}>
-                    About
-                  </a>
-                  </li>
-                  <li className="scroll-to-section">
-                    <a href="/Education" onClick={() => setMenuOpen(false)}>
-                    Education
-                  </a>
-                  </li>
-                  <li className="scroll-to-section">
-                    <a href="/skills" onClick={() => setMenuOpen(false)}>
-                    Skills</a>
-                  </li>
-                  <li className="scroll-to-section">
-                    <a href="/projects" onClick={() => setMenuOpen(false)}>
-                    Project</a>
-                  </li>
-                  <li className="scroll-to-section">
-                    <a href="/experience" onClick={() => setMenuOpen(false)}>
-                    Experience</a>
-                  </li>
-                  <li className="scroll-to-section">
-                    <a href="#blog">Contact</a>
-                  </li>
-                </ul>
-                <a className="menu-trigger">
-                  <span>Menu</span>
-                </a>
-              </nav>
-            </div>
+    <header
+      className="header-area header-sticky wow slideInDown"
+      data-wow-duration="0.75s"
+      data-wow-delay="0s"
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <nav className="main-nav">
+              <Link to="/" className="logo" onClick={() => setMenuOpen(false)}>
+                <img src={logoImage} alt="services" />
+                <h4>
+                  SHAR<span>MILA</span>
+                </h4>
+              </Link>
+
+              <ul className={`nav ${menuOpen ? "open" : ""}`}>
+                <li className="scroll-to-section">
+                  <Link to="/" onClick={() => setMenuOpen(false)}>About</Link>
+                </li>
+                <li className="scroll-to-section">
+                  <Link to="/education" onClick={() => setMenuOpen(false)}>Education</Link>
+                </li>
+                <li className="scroll-to-section">
+                  <Link to="/skills" onClick={() => setMenuOpen(false)}>Skills</Link>
+                </li>
+                <li className="scroll-to-section">
+                  <Link to="/projects" onClick={() => setMenuOpen(false)}>Project</Link>
+                </li>
+                <li className="scroll-to-section">
+                  <Link to="/experience" onClick={() => setMenuOpen(false)}>Experience</Link>
+                </li>
+                <li className="scroll-to-section">
+                  <a href="#blog" onClick={() => setMenuOpen(false)}>Contact</a>
+                </li>
+              </ul>
+
+              <button className="menu-trigger" onClick={toggleMenu}>
+                <span>Menu</span>
+              </button>
+            </nav>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
   );
 }
 
