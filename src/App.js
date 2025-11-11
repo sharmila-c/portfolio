@@ -9,7 +9,7 @@ import Experience from "./pages/Experience";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Home />
       <Routes>
         <Route path="/" element={<About />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
-        </Routes>
+      </Routes>
     </Router>
   );
 }
