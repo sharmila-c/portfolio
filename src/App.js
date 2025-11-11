@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import './App.css';
 import Home from './components/Home';
 import About from './pages/About';
@@ -17,7 +17,9 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
-        </Routes>
+        {/* Redirect any unknown route to About */}
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </Router>
   );
 }
