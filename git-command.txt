@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/sharmila-c/portfolio.git
+git push -u origin main
+
+
+
+git add src/App.js
+git commit -m "Add basename for GitHub Pages routing"
+git push origin main

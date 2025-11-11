@@ -1,0 +1,16 @@
+npm install gh-pages --save-dev
+
+"homepage": "https://yourusername.github.io/your-repo-name"
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+
+
+git init
+git remote add origin https://github.com/sharmila-c/portfolio.git
+git config --global user.name "Sharmila"
+git config --global user.email "your_github_email@example.com"
+
+
+npm run deploy
+
