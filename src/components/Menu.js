@@ -5,7 +5,7 @@ import logo from '../assets/images/logo.png';
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
-  const base = "/portfolio";   // 👈 IMPORTANT for GitHub Pages
+  const base = "/portfolio";  
 
   const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const closeMenu = () => setIsMobileMenuOpen(false);
