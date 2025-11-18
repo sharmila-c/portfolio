@@ -33,7 +33,7 @@ const Navbar = () => {
           <li><Link to="/skills" onClick={closeMenu} className={location.pathname === "/skills" ? "active" : ""}>Skills</Link></li>
           <li><Link to="/projects" onClick={closeMenu} className={location.pathname === "/projects" ? "active" : ""}>Project</Link></li>
           <li><Link to="/experience" onClick={closeMenu} className={location.pathname === "/experience" ? "active" : ""}>Experience</Link></li>
-          <li><a href="/contact" onClick={closeMenu} className={location.hash === "/contact" ? "active" : ""}>Contact</a></li>
+          <li><Link to="/contact" onClick={closeMenu} className={location.pathname === "/contact" ? "active" : ""}>Contact</Link></li>
         </ul>
 
         
@@ -52,7 +52,7 @@ const Navbar = () => {
         <li><Link to="/skills" onClick={closeMenu} className={location.pathname === "/skills" ? "active" : ""}>Skills</Link></li>
         <li><Link to="/projects" onClick={closeMenu} className={location.pathname === "/projects" ? "active" : ""}>Project</Link></li>
         <li><Link to="/experience" onClick={closeMenu} className={location.pathname === "/experience" ? "active" : ""}>Experience</Link></li>
-        <li><a href="/contact" onClick={closeMenu} className={location.hash === "/contact" ? "active" : ""}>Contact</a></li>
+        <li><Link to="/contact" onClick={closeMenu} className={location.pathname === "/contact" ? "active" : ""}>Contact</Link></li>
       </ul>
     </nav>
   );
