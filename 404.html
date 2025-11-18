@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=/portfolio/" />
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
     <script>
-      // SPA Redirect Fix for GitHub Pages
-      (function () {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect !== location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
+      sessionStorage.redirect = location.pathname + location.search + location.hash;
+      window.location.replace("/portfolio");
     </script>
   </head>
-
   <body></body>
 </html>
