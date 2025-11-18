@@ -13,7 +13,7 @@ function App() {
   return (
     <Router >
       <Menu />
-      <Routes>
+      <Routes basname="portfolio">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Education />} />
