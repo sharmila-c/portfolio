@@ -1,10 +1,18 @@
+import experienceImage from '../assets/images/experience.png';
+
 function Experience() {
   return (
     <div className="experience">
+            <div className="container">
+        <div className="row mb-3">
+          <h2 className="section-title mb-5">I Work Hard to Improve My Skills Regularly</h2>
+        </div>
+      </div>
+      <div className="container mt-5">
         <div className="row">
             <div className="col-lg-7">
                       <ul>
-        <li style={{ "--accent-color": "#fe3f40" }}>
+        <li style={{ "--accent-color": "#00ffcc" }}>
           <div className="date">Web Developer</div>
           <div className="title">Vellore Institute of Technology - VIT, Vellore</div>
           <div className="descr">
@@ -15,6 +23,31 @@ function Experience() {
         </li>
       </ul>
             </div>
+            <div className="col-lg-5">
+               <div class="hero-visual">
+                <div class="city-container">
+                    <div class="building building1">
+                        <div class="building-fill"></div>
+                        <div class="building-windows"></div>
+                    </div>
+                    <div class="building building2">
+                        <div class="building-fill"></div>
+                        <div class="building-windows"></div>
+                    </div>
+                    <div class="building building3">
+                        <div class="building-fill"></div>
+                        <div class="building-windows"></div>
+                    </div>
+                    <div class="building building4">
+                        <div class="building-fill"></div>
+                        <div class="building-windows"></div>
+                    </div>
+                    <div class="neon-line neon-line1"></div>
+                    <div class="neon-line neon-line2"></div>
+                </div>
+            </div>
+            </div>
+        </div>
         </div>
     </div>
   );

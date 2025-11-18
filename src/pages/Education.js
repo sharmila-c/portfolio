@@ -4,9 +4,10 @@ function Education() {
       <div className="container">
         <div className="row mb-5">
           <div className="col-lg-12">
-            <h2>Studies<em> That</em> Shaped<span> My</span>{" "}
-                      Path
-                    </h2>
+            <h2>Studies That Shaped My Path</h2>
+          </div>
+          <div className="para">
+            <p>I have built a strong academic foundation that supports my journey as a web developer. My education has helped me develop analytical thinking, problem-solving skills, and a structured approach to learning new technologies. With a focus on continuous growth, I keep expanding my knowledge through hands-on projects, professional learning, and self-driven exploration in web development and design.</p>
           </div>
         </div>
       </div>

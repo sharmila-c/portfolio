@@ -1,38 +1,6 @@
-
-import MiniChart from "./MiniChart";
-
-function Projects() {
-  return (
-    <div id="portfolio" className="our-portfolio section">
-      <section className="dashboard-section" id="dashboard">
-      <div className="dashboard-container">
-        <h2 className="section-title">Bringing ideas to life online</h2>
-        <p className="mb-5">I have developed a projects using PHP, CodeIgniter, WordPress, HTML, CSS, and Bootstrap. Each project reflects my focus on functionality, user-friendly design, and responsive layouts that deliver seamless digital experiences.</p>
-        <div className="row">
-          <div className="col-lg-2"></div>
-          <div className="col-lg-8">
-            <div className="stats-grid">
-
-          <div className="stat-card">
-            <div className="stat-value">Development</div>
-            <div class="stat-description">Built dynamic and responsive web applications using PHP, CodeIgniter, WordPress, HTML, CSS, and Bootstrap, focusing on functionality and smooth user experience.</div>
-            <MiniChart color="#ff0080" />
-          </div>
-
-          <div className="stat-card">
-            <div className="stat-value">Designing</div>
-            <div class="stat-description">Created engaging visuals including posters, banners, thumbnails, and flyers using Photoshop, Canva, and Figma, blending creativity with clean design aesthetics.</div>
-            <MiniChart color="#00ccff" />
-          </div>
-
-        </div>
-          </div>
-          <div className="col-lg-2"></div>
-        </div>
-      </div>
       <div className="container">
         <div className="row">
-          <h3><i>DEVELOPMENT</i></h3>
+          <h3>DEVELOPMENT</h3>
           <div className="col-lg-12">
             <h5 className="mt-4"><u><b>VIT Website – WordPress</b></u></h5>
             <p>Developed and maintained the official VIT University website using WordPress. This comprehensive institutional portal provides authoritative information on admissions, academics, departments, research, news, events, and campus resources for students, faculty, and visitors. Focus areas included content architecture, theme and  performance optimization, responsive design and secure content management to handle high traffic and frequent updates. The site emphasizes accessibility, clear navigation, and consistent branding to deliver an informative, user-friendly experience.</p>
@@ -89,17 +57,10 @@ function Projects() {
           </div>
         </div>
         <div class="row mt-5 mb-5">
-          <h3><i>DESIGN</i></h3>
+          <h3>DESIGN</h3>
           <div className="col-lg-12">
             <h5 className="mt-3"><u><b>Designing</b></u></h5>
             <p>Created a wide range of digital designs including posters, event banners, YouTube thumbnails, event backdrops, and flyers for institutional and promotional purposes. Used tools like Photoshop, Canva, PosterMyWall, and Freepik to craft visually appealing and impactful graphics. Focused on blending creativity with clarity to deliver designs that communicate ideas effectively and align with brand identity</p>
           </div>
         </div>
       </div>
-    </section>
-      
-    </div>
-  );
-}
-
-export default Projects;
