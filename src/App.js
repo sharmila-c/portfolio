@@ -11,8 +11,9 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router  basename="/portfolio">
+    <Router basename="/portfolio">
       <Menu />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,6 +22,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
+
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
