@@ -22,7 +22,7 @@ function Home(){
             I’m a passionate Web Developer with over 2 years and 8 months of experience in building dynamic, user-focused websites and web applications.
           </p>
           <a href={`${process.env.PUBLIC_URL}/Sharmila-Resume.pdf`} className="cta-button" target='_blank'>
-            View My Resume
+           Resume..
           </a>
         </div>
 
