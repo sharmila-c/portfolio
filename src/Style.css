@@ -298,10 +298,10 @@ nav.scrolled {
 .cta-button {
 	display: inline-block;
 	padding: 15px 40px;
-	background: linear-gradient(135deg, #ff6b6b, #ff8e53);
-	color: white;
+	background: linear-gradient(135deg, #00ccff, #00ccff);
+	color: black;
 	text-decoration: none;
-	border-radius: 30px;
+	border-radius: 20px;
 	font-size: 16px;
 	font-weight: 600;
 	transition: all 0.3s ease;
@@ -1594,6 +1594,7 @@ border-top-color:#00ffcc;
 }
 .contact-section img{
 	width:75%;
+	height:90%;
 }
 
 .contant-image {
